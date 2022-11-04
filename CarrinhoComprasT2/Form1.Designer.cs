@@ -109,6 +109,7 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.OliveDrab;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Image = global::CarrinhoComprasT2.Properties.Resources.Shopping_Cart_icon;
             this.button1.Location = new System.Drawing.Point(727, 332);
@@ -117,11 +118,12 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Check Out";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnRemoverTudo
             // 
+            this.btnRemoverTudo.BackColor = System.Drawing.Color.Salmon;
             this.btnRemoverTudo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRemoverTudo.Image = global::CarrinhoComprasT2.Properties.Resources.Remove_Cart_icon;
             this.btnRemoverTudo.Location = new System.Drawing.Point(727, 212);
@@ -130,11 +132,12 @@
             this.btnRemoverTudo.TabIndex = 2;
             this.btnRemoverTudo.Text = "Remover todos";
             this.btnRemoverTudo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnRemoverTudo.UseVisualStyleBackColor = true;
+            this.btnRemoverTudo.UseVisualStyleBackColor = false;
             this.btnRemoverTudo.Click += new System.EventHandler(this.btnRemoverTudo_Click);
             // 
             // btnRemoverUm
             // 
+            this.btnRemoverUm.BackColor = System.Drawing.Color.Salmon;
             this.btnRemoverUm.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRemoverUm.Image = global::CarrinhoComprasT2.Properties.Resources.Remove_Cart_icon;
             this.btnRemoverUm.Location = new System.Drawing.Point(727, 147);
@@ -143,12 +146,14 @@
             this.btnRemoverUm.TabIndex = 2;
             this.btnRemoverUm.Text = "Remover produto";
             this.btnRemoverUm.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnRemoverUm.UseVisualStyleBackColor = true;
+            this.btnRemoverUm.UseVisualStyleBackColor = false;
             this.btnRemoverUm.Click += new System.EventHandler(this.btnRemoverUm_Click);
             // 
             // btnSelecionar
             // 
+            this.btnSelecionar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnSelecionar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSelecionar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnSelecionar.Image = global::CarrinhoComprasT2.Properties.Resources.Add_Cart_icon;
             this.btnSelecionar.Location = new System.Drawing.Point(44, 357);
             this.btnSelecionar.Name = "btnSelecionar";
@@ -156,11 +161,12 @@
             this.btnSelecionar.TabIndex = 2;
             this.btnSelecionar.Text = "Selecionar produto";
             this.btnSelecionar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnSelecionar.UseVisualStyleBackColor = true;
+            this.btnSelecionar.UseVisualStyleBackColor = false;
             this.btnSelecionar.Click += new System.EventHandler(this.btnSelecionar_Click);
             // 
             // btnCategoria
             // 
+            this.btnCategoria.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCategoria.Image = global::CarrinhoComprasT2.Properties.Resources.search_icon;
             this.btnCategoria.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -169,7 +175,7 @@
             this.btnCategoria.Size = new System.Drawing.Size(127, 33);
             this.btnCategoria.TabIndex = 2;
             this.btnCategoria.Text = "Escolher";
-            this.btnCategoria.UseVisualStyleBackColor = true;
+            this.btnCategoria.UseVisualStyleBackColor = false;
             this.btnCategoria.Click += new System.EventHandler(this.btnCategoria_Click);
             // 
             // label1

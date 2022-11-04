@@ -129,5 +129,15 @@ namespace CarrinhoComprasT2.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Shopping_Cart_icon_big {
+            get {
+                object obj = ResourceManager.GetObject("Shopping-Cart-icon_big", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
